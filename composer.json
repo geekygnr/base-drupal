@@ -40,9 +40,6 @@
         "sort-packages": true
     },
     "extra": {
-        "drainpipe": {
-            "tugboat": {}
-        },
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"
