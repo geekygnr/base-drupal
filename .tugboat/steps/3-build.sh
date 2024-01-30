@@ -6,4 +6,4 @@
 set -eux
 echo "Building..."
 
-drush si -y
+./vendor/bin/drush si -y
