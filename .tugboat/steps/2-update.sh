@@ -7,6 +7,7 @@ set -eux
 echo "Updating..."
 
 composer install
+./vendor/bin/task sync
 
 # Set file permissions such that Drupal will not complain.
 chgrp -R www-data "${DOCROOT}/sites/default/files"

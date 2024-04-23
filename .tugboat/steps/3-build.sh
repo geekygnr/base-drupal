@@ -6,4 +6,5 @@
 set -eux
 echo "Building..."
 
-./vendor/bin/drush si -y
+./vendor/bin/task build
+./vendor/bin/task update
