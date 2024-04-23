@@ -19,7 +19,7 @@
         "drupal/core-composer-scaffold": "^10.2",
         "drupal/core-project-message": "^10.2",
         "drupal/core-recommended": "^10.2",
-        "lullabot/drainpipe": "^3.4"
+        "lullabot/drainpipe": "main-dev"
     },
     "conflict": {
         "drupal/drupal": "*"
