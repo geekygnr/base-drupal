@@ -1,0 +1,7 @@
+services:
+  mariadb:
+    commands:
+      init:
+        - curl https://www.dropbox.com/scl/fo/basdpsrv2cl378hdu5bko/AOhfCfIe8Yzgldv1AA8wpMM?rlkey=wsrfiah9zwioe1ruj8j4jcmp0&st=1p7z4k8l&dl=1 > /tmp/db.sql.gz
+        - zcat /tmp/db.sql.gz | mysql tugboat
+        - rm /tmp/db.sql.gz
