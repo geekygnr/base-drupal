@@ -31,7 +31,7 @@ tasks:
 
   sync:tugboat:
     cmds:
-      - curl https://www.dropbox.com/scl/fo/basdpsrv2cl378hdu5bko/AOhfCfIe8Yzgldv1AA8wpMM?rlkey=wsrfiah9zwioe1ruj8j4jcmp0&st=1p7z4k8l&dl=1 > /tmp/db.sql.gz
+      - wget -o /dev/null -O /tmp/db.sql.gz https://www.dropbox.com/scl/fi/42usxx5ivv87hlrhle5uo/drupal.sql.gz?rlkey=ckbchk0lz10ezb4a8ch9qjmk9&st=zna97r3v&dl=1
       - zcat /tmp/db.sql.gz | ./vendor/bin/drush sql:cli
       - rm /tmp/db.sql.gz
 
