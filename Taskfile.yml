@@ -29,6 +29,12 @@ tasks:
       - echo "🧹 Sanitising database"
       - ./vendor/bin/drush sql:sanitize --yes
 
+  sync:tugboat:
+    cmds:
+      - curl https://www.dropbox.com/scl/fo/basdpsrv2cl378hdu5bko/AOhfCfIe8Yzgldv1AA8wpMM?rlkey=wsrfiah9zwioe1ruj8j4jcmp0&st=1p7z4k8l&dl=1 > /tmp/db.sql.gz
+      - zcat /tmp/db.sql.gz | drush sqlc
+      - rm /tmp/db.sql.gz
+
   build:
     desc: "Builds the project for production"
     deps: [drupal:composer:production]
