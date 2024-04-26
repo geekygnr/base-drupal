@@ -2273,12 +2273,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Lullabot/drainpipe.git",
-                "reference": "6234acf876b704f0356772e0e25087752e55663f"
+                "reference": "980845625fe769145d7376173a9fe21e50a86ed2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Lullabot/drainpipe/zipball/6234acf876b704f0356772e0e25087752e55663f",
-                "reference": "6234acf876b704f0356772e0e25087752e55663f",
+                "url": "https://api.github.com/repos/Lullabot/drainpipe/zipball/980845625fe769145d7376173a9fe21e50a86ed2",
+                "reference": "980845625fe769145d7376173a9fe21e50a86ed2",
                 "shasum": ""
             },
             "require": {
@@ -2325,7 +2325,7 @@
                 "issues": "https://github.com/Lullabot/drainpipe/issues",
                 "source": "https://github.com/Lullabot/drainpipe/tree/473--mysql-package-name"
             },
-            "time": "2024-04-26T18:48:52+00:00"
+            "time": "2024-04-26T19:40:19+00:00"
         },
         {
             "name": "masterminds/html5",
