@@ -15,12 +15,12 @@ services:
     default: true
 
     depends:
-      - mariadb
+      - mysql
 
     commands:
       init: ./.tugboat/steps/1-init.sh
       update: ./.tugboat/steps/2-update.sh
       build: ./.tugboat/steps/3-build.sh
 
-  mariadb:
-    image: tugboatqa/mariadb:10.4
+  mysql:
+    image: tugboatqa/mysql:8.0
